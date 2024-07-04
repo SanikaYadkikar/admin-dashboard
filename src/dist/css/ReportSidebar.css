@@ -12,10 +12,10 @@
   float: right; /* Floating the container to the right */
   padding: 20px; /* Adding padding around the container */
   min-height: 65vh; /* Setting a minimum height of 65% of the viewport height */
-  width: 30%; /* Setting the width to 30% of the parent container */
+  width: 25%; /* Setting the width to 30% of the parent container */
   flex-direction: column; /* Aligning children in a column */
 }
-.parent-container-rs .container-b {
+.parent-container-rs .report-sidebar-container {
   width: 100%; /* Full width of the parent container */
   height: 93vh; /* Setting the height to 93% of the viewport height */
   display: flex; /* Using flexbox for layout */
@@ -24,13 +24,13 @@
   border-radius: 10px; /* Rounding the corners of the container */
   padding: 20px; /* Adding padding inside the container */
 }
-.parent-container-rs .container-b .title {
+.parent-container-rs .report-sidebar-container .title {
   color: #FAFAFA; /* Setting text color using a variable */
   font-family: "Poppins", sans-serif; /* Setting font family using a variable */
   width: 100%; /* Full width of the container */
   margin-bottom: 20px; /* Adding gap below the title */
 }
-.parent-container-rs .container-b .anchor-text-parent-container {
+.parent-container-rs .report-sidebar-container .anchor-text-parent-container {
   display: flex; /* Using flexbox for layout */
   justify-content: center; /* Centering children horizontally */
   align-items: center; /* Centering children vertically */
@@ -38,7 +38,7 @@
   height: 25%; /* Setting height to 20% of the parent container */
   flex-direction: column; /* Aligning children in a column */
 }
-.parent-container-rs .container-b .anchor-text-parent-container .see-more-anchor {
+.parent-container-rs .report-sidebar-container .anchor-text-parent-container .see-more-anchor {
   background-color: #FAFAFA; /* Setting background color using a variable */
   border-radius: 5px; /* Rounding the corners of the anchor */
   height: 45%; /* Setting height to 45% of the parent container */

@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-.container-a {
+.parent-container-automation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -15,7 +15,7 @@
   border: 2px solid blue;
   margin-bottom: 20px;
 }
-.container-a .automation {
+.parent-container-automation .automation {
   border-radius: 5px;
   border: none;
   padding: 8px 12px;
@@ -25,11 +25,11 @@
   color: #2C2C2C;
   cursor: pointer;
 }
-.container-a .automation:hover {
+.parent-container-automation .automation:hover {
   color: #FAFAFA;
   background-color: #1ed760; /* Slightly lighter green on hover */
   transform: scale(1.05); /* Slightly larger on hover */
 }
-.container-a .automation:focus {
+.parent-container-automation .automation:focus {
   outline: none; /* Remove default focus outline */
 }/*# sourceMappingURL=AutomationButton.css.map */

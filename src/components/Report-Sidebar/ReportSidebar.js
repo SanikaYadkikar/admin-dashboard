@@ -7,7 +7,7 @@ const ReportSidebar = () => {
   return (
     <div className='parent-container-rs'> {/* Parent container for the sidebar */}
       
-        <div className="container-b"> {/* Container for the title, report cards, and link */}
+        <div className="report-sidebar-container"> {/* Container for the title, report cards, and link */}
             <h3 className='title'>Reports</h3> {/* Title for the sidebar */}
             <ReportCard /> {/* ReportCard component instance */}
             <ReportCard /> {/* ReportCard component instance */}

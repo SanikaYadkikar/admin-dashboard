@@ -15,7 +15,7 @@
     padding: 12px; // Adding padding inside the container
     margin-bottom: 15px; // Adding space below the card
 
-    .report-card-c1 {
+    .report-card-container {
         width: 100%; // Full width of the parent container
         height: 50%; // 50% height of the card
         display: flex; // Using flexbox for layout
@@ -33,11 +33,15 @@
                 flex-direction: row; // Aligning children in a row
                 
                 .profile-icon {
-                    height: 38px; // Fixed height for the profile icon
-                    width: 38px; // Fixed width for the profile icon
-                    border-radius: 50%; // Making the icon circular
+                    height: 42px; // Fixed height for the profile icon
+                    width: 42px; // Fixed width for the profile icon
+                    border-radius: 50%;// Making the icon circular
                     background-color: white; // Setting background color to white
                     margin-right: 10px; // Adding space to the right
+                    overflow: hidden;
+                    border: 2px solid $green-secondary;
+                    display: flex; 
+                    object-fit: cover;
                 }
 
                 .report-text {
@@ -83,7 +87,7 @@
         }
     }
 
-    .report-card-c2 {
+    .report-card-desc {
         width: 100%; // Full width of the container
         height: 35%; // 35% height of the card
         display: flex; // Using flexbox for layout
@@ -94,6 +98,7 @@
             font-family: $font-primary; // Setting font family using a variable
             font-size: 12px; // Setting font size
             font-weight: $font-regular-weight; // Setting font weight using a variable
+            color: $white-tertiary;
         }
     }
 }

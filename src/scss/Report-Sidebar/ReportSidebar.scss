@@ -8,10 +8,10 @@
     float: right; /* Floating the container to the right */
     padding: 20px; /* Adding padding around the container */
     min-height: 65vh; /* Setting a minimum height of 65% of the viewport height */
-    width: 30%; /* Setting the width to 30% of the parent container */
+    width: 25%; /* Setting the width to 30% of the parent container */
     flex-direction: column; /* Aligning children in a column */
 
-    .container-b {
+    .report-sidebar-container {
         width: 100%; /* Full width of the parent container */
         height: 93vh; /* Setting the height to 93% of the viewport height */
         display: flex; /* Using flexbox for layout */
